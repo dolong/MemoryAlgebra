@@ -17360,7 +17360,10 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Touch,
 	cr.plugins_.Arr,
 	cr.plugins_.Button,
-	cr.plugins_.Button.prototype.cnds.OnClicked,
+	cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
+	cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
+	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
+	cr.plugins_.Touch.prototype.cnds.OnHoldGesture,
 	cr.plugins_.Arr.prototype.acts.Clear,
 	cr.plugins_.Text.prototype.acts.SetVisible,
 	cr.system_object.prototype.acts.SetVar,
@@ -17379,7 +17382,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.acts.AppendText,
 	cr.plugins_.Arr.prototype.exps.At,
 	cr.system_object.prototype.exps.newline,
-	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.plugins_.Text.prototype.acts.SetInstanceVar,
 	cr.system_object.prototype.cnds.Every,
 	cr.system_object.prototype.cnds.ForEach,
@@ -17389,5 +17391,9 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.cnds.CompareOpacity,
 	cr.plugins_.Sprite.prototype.acts.SetOpacity,
 	cr.plugins_.Text.prototype.acts.MoveToTop,
-	cr.system_object.prototype.cnds.OnLayoutStart
+	cr.system_object.prototype.cnds.OnLayoutStart,
+	cr.plugins_.Button.prototype.acts.SetCSSStyle,
+	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
+	cr.system_object.prototype.acts.GoToLayout,
+	cr.plugins_.Touch.prototype.cnds.OnHoldGestureObject
 ];};
