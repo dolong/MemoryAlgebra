@@ -17394,7 +17394,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.acts.MoveToTop,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.plugins_.Button.prototype.acts.SetCSSStyle,
-	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
-	cr.system_object.prototype.acts.GoToLayout,
-	cr.plugins_.Touch.prototype.cnds.OnHoldGestureObject
+	cr.plugins_.Touch.prototype.cnds.OnTapGesture,
+	cr.system_object.prototype.acts.GoToLayout
 ];};
