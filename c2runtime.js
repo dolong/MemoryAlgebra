@@ -17382,6 +17382,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Text.prototype.acts.AppendText,
 	cr.plugins_.Arr.prototype.exps.At,
 	cr.system_object.prototype.exps.newline,
+	cr.plugins_.Sprite.prototype.cnds.IsVisible,
 	cr.plugins_.Text.prototype.acts.SetInstanceVar,
 	cr.system_object.prototype.cnds.Every,
 	cr.system_object.prototype.cnds.ForEach,
