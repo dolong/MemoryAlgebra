@@ -20444,7 +20444,7 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Fade,
 	cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
 	cr.plugins_.Sprite.prototype.acts.SetAnimFrame,
-	cr.plugins_.Audio.prototype.acts.PlayAtObject,
+	cr.plugins_.Audio.prototype.acts.Play,
 	cr.plugins_.Touch.prototype.cnds.OnTapGestureObject,
 	cr.plugins_.Touch.prototype.cnds.OnHoldGesture,
 	cr.plugins_.Arr.prototype.acts.Clear,
