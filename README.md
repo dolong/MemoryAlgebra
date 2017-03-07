@@ -3,4 +3,5 @@
 Game of memory designed in HTML5 and phoneGap
 Uses Construct 2.
 
-http://i.imgur.com/KYTdZCF.png
+<img src="http://i.imgur.com/KYTdZCF.png" width="500">
+
